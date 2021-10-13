@@ -29,7 +29,7 @@ export default class Display extends Component {
     let { label } = this.props;
     return (
       <section className="w-2/4 ml-4 h-96 h-81vh">
-        <div className="bg-gray-300 rounded-t flex justify-between px-2 text-gray-500">
+        <div className="bg-gray-300 rounded-t flex justify-between px-2 text-gray-500 py-2">
           <div>
             <span className="inline-block rounded-full bg-red-400 w-2 h-2 ml-1"></span>
             <span className="inline-block rounded-full bg-yellow-400 w-2 h-2 ml-1"></span>
